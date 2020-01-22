@@ -1,0 +1,78 @@
+/* tasksComponent's private CSS styles */
+.tasks {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 55em;
+}
+.tasks li {
+  position: relative;
+  cursor: pointer;
+  background-color: rgb(214, 152, 71);
+  margin: .5em;
+  padding: .3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+  margin-top:1em;
+}
+
+.tasks li:hover {
+  color: rgb(138, 173, 190);
+  background-color: #DDD;
+  left: .1em;
+}
+
+.tasks a {
+  color: rgb(243, 241, 245);
+  text-decoration: none;
+  position: relative;
+  display: block;
+  width: 450px;
+}
+
+.tasks a:hover {
+  color:rgb(11, 12, 12);
+}
+
+.tasks .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color:#4f8cce;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  min-width: 16px;
+  text-align: right;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
+}
+
+button {
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+  font-family: Arial;
+}
+
+button:hover {
+  background-color: #cfd8dc;
+}
+
+button.delete {
+  position: relative;
+  left: 194px;
+  top: -32px;
+  background-color: rgb(204, 102, 102) !important;
+  color: white;
+  margin-left: 47em;
+}
+
+
+
